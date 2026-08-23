@@ -7,10 +7,15 @@
 
 # testing
 /coverage
+/playwright-report/
+/test-results/
 
 # next.js
 /.next/
 /out/
+
+# Amp service-generated portal manifests
+/.amp/portals/
 
 # production
 /build
@@ -27,6 +32,7 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.firecrawl/
 .env
 
 # vercel
@@ -46,3 +52,4 @@ static/
 
 .react-email/
 /.idea
+.env*
